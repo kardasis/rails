@@ -108,6 +108,7 @@ In `lib/yaffle.rb`, add `require "yaffle/core_ext"`:
 ```ruby
 # yaffle/lib/yaffle.rb
 
+require "yaffle/version"
 require "yaffle/railtie"
 require "yaffle/core_ext"
 
@@ -161,6 +162,7 @@ end
 ```ruby
 # yaffle/lib/yaffle.rb
 
+require "yaffle/version"
 require "yaffle/railtie"
 require "yaffle/core_ext"
 require "yaffle/acts_as_yaffle"
